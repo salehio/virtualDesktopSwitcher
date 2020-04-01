@@ -4,15 +4,7 @@
 SetBatchLines -1
 SendMode Input ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-SLEEP_VAL := 500
 DEBUG := false
-
-;hotkey LWin & Left, take_me_home, on
-;hotkey LWin & LAlt, take_me_home, on
-;hotkey LControl & LShift, take_me_home, on
-;hotkey LControl & 1, take_me_home, on
-;hotkey XButton1, take_me_home, on
-;hotkey XButton2, take_me_home, on
 
 main()
 bind()
